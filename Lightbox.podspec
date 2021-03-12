@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "Lightbox"
   s.summary          = "A a convenient and easy to use image viewer for your iOS app, packed with all the features you expect"
-  s.version          = "2.5.0"
-  s.homepage         = "https://github.com/DivMewada/Lightbox"
+  s.version          = "2.5.2"
+  s.homepage         = "https://github.com/hyperoslo/Lightbox"
   s.license          = 'MIT'
   s.author           = { "Hyper Interaktiv AS" => "ios@hyper.no" }
-  s.source           = { :git => "https://github.com/DivMewada/Lightbox.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/DivMewada/Lightbox", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/hyperoslo'
   s.platform     = :ios, '11.0'
   s.requires_arc = true
