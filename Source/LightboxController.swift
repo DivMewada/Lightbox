@@ -1,4 +1,5 @@
 import UIKit
+import SDWebImage
 
 public protocol LightboxControllerPageDelegate: class {
 
@@ -383,7 +384,7 @@ extension LightboxController: UIScrollViewDelegate {
 
 extension LightboxController: PageViewDelegate {
 
-  func remoteImageDidLoad(_ image: UIImage?, imageView: UIImageView) {
+  func remoteImageDidLoad(_ image: UIImage?, imageView: SDAnimatedImageView) {
     guard let image = image, dynamicBackground else {
       return
     }

@@ -16,6 +16,8 @@
 		44E6A6662495C0EB00543CF0 /* Lightbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D523B0A91C43AA2A001AD1EC /* Lightbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6A4018EA25FB2C97006534E3 /* SDWebImage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4018E925FB2C97006534E3 /* SDWebImage.xcframework */; };
 		6A4018EB25FB2C97006534E3 /* SDWebImage.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4018E925FB2C97006534E3 /* SDWebImage.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A40192425FB84CF006534E3 /* SDWebImage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4018E925FB2C97006534E3 /* SDWebImage.xcframework */; };
+		6A40192525FB84CF006534E3 /* SDWebImage.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A4018E925FB2C97006534E3 /* SDWebImage.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D22006741DFB4D9700E92898 /* Lightbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D22006731DFB4D9700E92898 /* Lightbox.bundle */; };
 		D2258CC4215CD035005A9A1C /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2258CC3215CD035005A9A1C /* Color+Extensions.swift */; };
 		D2D71BBC1D54DA77006AB907 /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D71BBB1D54DA77006AB907 /* AssetManager.swift */; };
@@ -50,6 +52,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				44E6A6662495C0EB00543CF0 /* Lightbox.framework in Embed Frameworks */,
+				6A40192525FB84CF006534E3 /* SDWebImage.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +105,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44E6A6652495C0EB00543CF0 /* Lightbox.framework in Frameworks */,
+				6A40192425FB84CF006534E3 /* SDWebImage.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +394,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = iOSDemo/Info.plist;
@@ -422,7 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = iOSDemo/Info.plist;
